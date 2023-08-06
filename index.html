@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Invitation</title>
+    <link rel="stylesheet" href="./asset/style.css">
+</head>
+<body>
+    <div class="container">
+        <video id="video1" src="./sound/bg1.mp3"></video>
+        <h1>Risma Birthday Invitation</h1>
+        <form id="invitationForm">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" required>
+            <button onclick="playPause()">Hadir</button>
+        </form>
+        <div id="invitationCard" class="hide">
+            <h2>Dear <span id="guestName"></span>,</h2>
+            <p>I invite you to attend my birthday party. let's come and join!</p>
+            <p>The Event Will Be Held On: </p>
+            <table border="0">
+                <tbody>
+                <tr>
+                    <td>Date</td>
+                    <td>:</td>
+                    <td>Friday , 25 August 2023</td>
+                </tr>
+                <tr>
+                    <td>Time</td>
+                    <td>:</td>
+                    <td>18:00 WIB</td>
+                </tr>
+                <tr>
+                    <td>Place</td>
+                    <td>:</td>
+                    <td>Jl. LMU.Nurtanio No.63 (West Point Hotel Bandung)</td>
+                </tr>
+                <tr>
+                    <td>Dress Code</td>
+                    <td>:</td>
+                    <td>White</td>
+                </tr>
+                </tbody>
+            </table>
+                <p>I hope you can come to my birthday party.</p>
+                <p>Thank You!</p>
+        </div>
+    </div>
+    <script src="./asset/script.js"></script>
+</body>
+</html>
